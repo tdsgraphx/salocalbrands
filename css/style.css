@@ -1,0 +1,590 @@
+
+/*--------------------------------------------------------------
+# MOBILE STYLE
+--------------------------------------------------------------*/
+@media screen and (max-width:800px) {
+
+	body {
+		width:100%;
+		margin:0 auto;			
+	}
+
+	#long-nav #name-for {
+		display:none
+	}
+
+	.nav-open img {
+		width:30px;
+		margin:15px;
+	}
+
+	.nav-open img, span .nav-open {
+		margin:15px;
+		float:left;
+	}
+
+	span .nav-open {
+		color:#fff;
+        font-weight:bold;
+	}
+
+	#logo img {
+		width:70%;
+	 }
+	
+
+	body, #newdiv, #lastdiv, #nav, #newdiv, #lastdiv, #main, #footer, #box-container, #box-container .box, #nav #links  {
+		width:100%;
+	}
+
+	body, #lastdiv, #nav, #nav #links, #newdiv, #lastdiv, #main, #footer {
+		float:left;
+	}
+
+	#image-h img {
+		width:40%;
+	}
+
+	#box-container {
+		margin:8px auto;
+	}
+
+	#box-container .box  {
+		margin:12px;
+		width:34%;
+	}
+
+	form input {
+		height:40px;
+	}
+
+	form input, form textarea {
+		float:left;
+		width:80%;
+	}
+      
+	form textarea {
+	   height:90px;
+	}
+
+	#showServices li {
+		width:60%;
+		padding:20px;
+		float:left;
+		height:50px;
+		font-size:15px;
+		font-weight:500;
+	}
+	
+}
+/*--------------------------------------------------------------
+# END OF MOBILE STYLE
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# DESKTOP STYLE
+--------------------------------------------------------------*/
+@media screen and (min-width:800px) { 
+
+	#body {
+		width:80%;
+		margin:8px auto;
+		box-shadow:0 0 8px #888;
+		-webkit-box-shadow:0 0 5px #888;
+		-moz-box-shadow:0 0 5px #888;			
+	}
+
+	#mySidenav, .nav-open {
+		display:none;
+	}
+
+	#long-nav {
+		display:block;
+	}
+
+	#body {
+		height:1200px;
+	}
+
+	#box-container {
+		padding:14px;
+	}
+
+	#box-container .box {
+		margin:10px;
+	}
+	
+	.social-media, #nav #links {
+		float:right;
+	}
+
+	.social-media {
+		padding:10px;
+	}
+	
+	.social-media img {
+		width:25px;
+		position:relative;
+		display:inline-block;
+	}
+	
+	#long-nav img {
+		width:20px;
+		margin:20px;
+	}
+
+	#long-nav #name-for {
+		margin:20px;
+	}
+	
+	#long-nav #name-for #name {
+		font-size:20px;
+		font-family:'Times New Roman', Times, serif;
+		font-weight:800;
+		margin:20px;
+	}
+	
+	#long-nav #name-for a, #long-nav #name-for a:visited, #name-for .link a:active {
+		color:#fff;
+		text-decoration:none;
+	}
+        
+    #name-for .link {
+			font-size:16px;
+			float:right;
+			margin-left:10px;
+			margin-right:10px;
+			font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    #name-for i {
+        font-size:30px;
+    }
+
+    #long-nav #name-for a:hover {
+            color:lawngreen; 
+            text-decoration:none;
+    }
+
+	#content h2, .box h4, #services h2,  #showAbout h2 {
+		text-align:center;
+	}
+
+	#logo img {
+		width:30%;
+		margin-left:220px;
+	 }
+
+	#newdiv, #lasdtdiv {
+		margin:2px auto;
+	}
+
+	#newdiv, #lasdtdiv, #image-h img {
+		float:left;
+	}
+
+	#image-h img {
+		width:22%;
+		height:120px;
+	}
+
+	#box-container {
+		width:100%;
+		margin:3px auto;
+	 }
+
+	#box-container .box {
+		width:19%;
+	}
+
+	form {
+		padding-left:25px;
+		padding-right:25px;
+	}
+   
+	form input {
+		width:30%;
+		height:40px;
+	}
+   
+	form textarea {
+	   width:45%;
+	   height:70px;
+	}
+
+	#showServices li {
+		width:60%;
+		padding-top:6px;
+		padding-bottom:6px;
+		font-weight:600;
+		font-size:18px;
+	}
+
+}
+/*--------------------------------------------------------------
+# END OF DESKTOP STYLE
+--------------------------------------------------------------*/
+
+	/* The side navigation menu */
+	.sidenav {
+		height:100%; /* 100% Full-height */
+		width:0; /* 0 width - change this with JavaScript */
+		background-image:url("Bg_.jpeg");
+		background-size:cover;
+		background-position:center;
+		background-repeat:no-repeat;
+		position: fixed; /* Stay in place */
+		z-index: 1; /* Stay on top */
+		top: 0; /* Stay at the top */
+		left: 0;
+		overflow-x: hidden; /* Disable horizontal scroll */
+		padding-top:65px; /* Place content 60px from the top */
+		transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+	}
+
+	/* The navigation menu links */
+	.sidenav a {
+		font-family:Verdana, Geneva, Tahoma, sans-serif;
+		padding: 8px 8px 8px 32px;
+		text-decoration: none;
+		font-size:16px;
+		color: #fff;
+		margin-top:10px;
+		display: block;
+		transition: 0.3s;
+	}
+
+	.sidenav i {
+		font-size:50px;
+	}
+
+	/* When you mouse over the navigation links, change their color */
+	.sidenav a:hover {
+		color:green;
+	}
+
+	/* Position and style the close button (top right corner) */
+	.sidenav .closebtn {
+		position: absolute;
+		top: 0;
+		right: 25px;
+		color:red;
+		font-size: 36px;
+		margin-left: 50px;
+	}
+
+/*--------------------------------------------------------------
+# BODY CONTAINER
+--------------------------------------------------------------*/
+#body {
+	background-color:white;
+	font-family:"Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";;
+}
+
+.nav-open img {
+	width:30px;
+	margin:15px;
+}
+
+#long-nav {
+	display:block;
+	width:100%;
+	height:60px;
+	top:0;
+	position:fixed;
+	background-color:#48752E;
+	float:left;
+	box-shadow:0px 0px 3px #000;
+	-webkit-box-shadow:0px 0px 3px #000;
+	-moz-box-shadow:0px 0px 3px #000;
+}
+/*--------------------------------------------------------------
+# END OF BODY CONTAINER
+--------------------------------------------------------------*/
+
+#content h2, #content p  {
+    text-align:center;
+    color:#fff;
+    text-shadow:0 5px 10px #000;
+    -webkit-text-shadow:0 5px 10px #000;
+    -moz-text-shadow:0 5px 15px #000;
+}
+
+#showAbout h2, #showAbout p {
+	color:#48752E;
+}
+
+
+#content h2, .box h4, #Services h2,  #showAbout h2 {
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-style:italic;
+}
+
+#content h2 {
+	width:80%;
+	text-align:center;
+	font-style:italic;	
+	margin:20px auto;
+	margin-top:100px;
+	margin-bottom:100px;
+}
+
+
+.box h4, #services h2, #content p, .box p, #services p, #showAbout h2,  #showAbout p {
+	padding:10px;
+}
+
+#content p, .box p, #services p, #showAbout h2,  #showAbout p, #footer {
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.def-button {
+	width:100%;
+}
+
+.def-button #lessServices {
+	display:none;
+}
+/*--------------------------------------------------------------
+# BOX CONTAINER
+--------------------------------------------------------------*/
+#box-container h2 {
+	text-align:center;
+	color:#48752E;
+	font-family:'Times New Roman', Times, serif;
+}
+
+#box-container .box {
+	background-color:#48752E;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+
+#box-container .box:hover {
+	background-color:green;
+}
+
+#box-container .box {
+	height:180px;
+	float:left;
+	text-align:center;
+	margin-bottom:8px;
+	margin-top:8px;
+	padding:10px;
+	box-shadow:0 0 8px #888;
+	-webkit-box-shadow:0 0 5px #888;
+	-moz-box-shadow:0 0 5px #888;
+}
+
+
+button, .box .icon-box button, #services button {
+	text-align: center;
+	color:#48752E;
+	font-size:16px;
+}
+
+@media screen and (max-width:1000px) {
+
+	.box {
+		width:20%;
+		margin:4px;
+	}
+
+	#image-h img {
+		width:30%;
+	}
+}
+
+button, button a {
+	background-color:#fff;
+	border-radius:4px;
+	border:#48752E;
+	padding:10px;
+	margin:8px;
+	transition:.6s;
+}
+
+button:hover, button a:hover {
+	background-color:#48752E;
+	color:#fff !important;
+}
+
+/*--------------------------------------------------------------
+#  END OF BOX CONTAINER
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# THE DIV CONTAINERS
+--------------------------------------------------------------*/
+#newdiv {
+    background-image:url("Bg_.jpeg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    width:100% !important;
+}
+
+#lastdiv {
+	height:auto;
+	font-size:16px;
+	background-color:#48752E;
+	background-size:cover;
+}
+
+#nav, #newdiv, #lastdiv, #footer, #box-container {
+	width:100%;
+	color:white;
+	float:left;
+	transition:1.3s;
+}
+/*--------------------------------------------------------------
+# END OF THE DIV CONTAINERS
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# SERVICES SECTION
+--------------------------------------------------------------*/
+#image-h {
+	width:100%;
+}
+
+#image-h img {
+	margin:8px;
+	border:2px solid #48752E;
+}
+
+#image-h img:hover {
+	margin:8px;
+	border:2px solid white;
+	opacity:0.8;;
+}
+
+#showServices li {
+	margin:6px auto;
+	height:30px;
+	background-color:green;
+	text-align:center;
+	list-style:none;
+}
+
+#showServices li:hover {
+	background-color:#fff;
+	color:green;
+}
+
+#showServices, #showAbout, #showContacts {
+	display:none;
+	padding:12px;
+	transition:.10s;
+}
+
+.def-button #getServices {
+	float:left;
+	margin:15px;
+}
+
+ #showAbout h2 {
+	width:100%;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-style:italic;
+ }
+
+ #showContacts h3, #showContacts p, #showContacts i {
+	 text-align: center;
+ }
+
+ #showContacts i {
+	width:100%;
+	font-size:30px;
+	padding-top:14px;
+}
+
+ #showContacts p a {
+	font-weight:600;
+}
+
+ #showContacts p a, #showContacts p a:visited {
+	color:#48752E;
+	text-decoration:none;
+}
+
+#showContacts p a:hover {
+	color:brown;
+	text-decoration:none;
+}
+
+ form input, form textarea {
+	font-size:14px;
+	border-radius:6px;
+	border: 3px solid #48752E;
+	color:#48752E;
+	background-color:#fff;
+	padding:10px;
+	margin:10px;
+	float:left;
+}
+/*--------------------------------------------------------------
+# END OF SERVICES SECTION
+--------------------------------------------------------------*/
+
+.back-to-top {
+	margin:30px;
+	font-size:40px;
+	color:#fff;
+}
+/*--------------------------------------------------------------
+# FOOTER
+--------------------------------------------------------------*/	
+#footer {
+	background-color:darkslategray;
+	text-align:center;
+ 	padding-bottom:100px;
+ 	padding-top:50px;
+	color:#fff;
+	font-size:14px;
+ 	text-decoration:none;
+ 	float:left;
+}  
+
+#footer a, #footer a:visited {
+    text-decoration: none;
+    color:#fff;
+    margin:10px;
+}
+
+#footer .links {
+	margin-top:40px;
+	margin-bottom:20px;
+}
+
+#footer .links a {
+	width:100%;
+	float: left;
+	margin:6px;
+}
+
+#footer a:hover {
+    text-decoration: none;
+    color:lawngreen;
+}
+
+#icons a {
+    font-size:50px;
+}
+
+#social-updates p {
+	font-size:20px;
+	padding:10px;
+}
+
+#footer #copyrights {
+    width:100%;
+	float:left;
+	font-size:16px;
+	margin-top:40px;
+}
+/*--------------------------------------------------------------
+# END OF FOOTER
+--------------------------------------------------------------*/
